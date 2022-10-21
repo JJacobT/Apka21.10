@@ -19,7 +19,9 @@ class MainActivity : AppCompatActivity() {
         dopisz.setOnClickListener {
             tekst.text = tekst.text.toString() + wpisz.text
         }
-
+        przywroc.setOnClickListener{
+            tekst.text = "Jakub Tyszko"
+        }
     }
 
 }
