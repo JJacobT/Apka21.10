@@ -16,6 +16,10 @@ class MainActivity : AppCompatActivity() {
         val tekst = findViewById<TextView>(R.id.textView)
         val wpisz = findViewById<EditText>(R.id.editTextTextPersonName)
 
+        dopisz.setOnClickListener {
+            tekst.text = tekst.text.toString() + wpisz.text
+        }
+
     }
 
 }
